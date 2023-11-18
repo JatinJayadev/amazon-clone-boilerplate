@@ -1,0 +1,156 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background-image: url(assets/background\ picture.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 4px;
+}
+.a{
+    margin: 10px 20px 5px 2px;
+}
+.font12{
+    font-size: 12px;
+}
+.font14{
+    font-size: 14px;
+}
+.location{
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.b{
+    margin-top: 20px;
+    align-items: center;
+}
+.c{
+    margin-right: 10px;
+}
+.rightlogo{
+    position: relative;
+    left:150px;    
+}
+
+.nav1{
+    background-color: #121921;
+    height: 60px;
+}
+.d{
+    position: relative;
+    right: 20px;
+    top: 15px;
+}
+.nav2{
+    background-color: #243040;
+    height: 39px;
+}
+.navflex{
+    justify-content: center;
+    align-items: center;
+}
+.lion{
+    position: relative;
+    right: 50px;
+}
+.nav2bar{
+   padding: 5px;
+   position: relative;
+   bottom: 5px;
+   right: 155px;
+   font-size: 13px;
+}
+.all{
+    position: relative;
+    top: 10px;
+}
+.search{
+    width: 600px;
+    height: 40px;
+}
+.text{
+    font-size: 12px;
+    position: absolute;
+    top:80px;
+    left: 1160px;
+}
+.prime{
+    font-size: 20px;
+}
+#allselect{
+    width: 50px;
+    background-color: #FFFBFB;
+    border-radius: 5px 0px 0px 5px;
+    height: 40px;
+    width: 50px;
+    border-right: 1px black;
+}
+.input{
+    width: 500px;
+    height: 40px;
+}
+.search-icon{
+    height: 39px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBBE67;
+    border-radius: 0px 5px 5px 0px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 350px;
+    background-color: transparent;
+    width: 100%;
+    margin-left:30px;
+}
+.stack{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    height: 350px;
+}
+h2{
+    color: black;
+    margin-bottom: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap: 3px ;
+}
+.stack1{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;    
+    position: relative;
+    bottom: 350px;
+}
+.button{
+    width: 300px;
+    height: 35px;
+    background-color: #FED813;
+    border: none;
+    border-radius: 5px;
+}
+.laptop{
+    position: absolute;
+    left: 945px;
+    top: 600px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
